@@ -2,8 +2,11 @@
 
 An outlook creator for educational and research purposes based in the UK and Ireland.
 
+![Capture](https://github.com/polserull/Outlook-Creator/assets/88738134/5adf80e4-8c4e-438a-bf2b-2df3b3aaaa85)
+
 <h3>Usage</h3>
-![image](https://github.com/polserull/Outlook-Creator/assets/88738134/560bc16f-279d-4a6a-a553-911bac899bf5)
+
+![Capture](https://github.com/polserull/Outlook-Creator/assets/88738134/658ef2f4-65a8-4674-9f3a-5d3a9b2462d3)
 
 1. Set a outlook ID (this can be any number), select the valid date and time (Z stands for Zulu Time which uses GMT) the issue date is automatic.
 2. Under the risks dropdown you can select the rating from LOW to MDT when you want to draw your polygon select `Create Polygon` then select points on the image
@@ -17,12 +20,15 @@ The WXOD file is just plain text and contain the outlook text including the id, 
 
 <h3>Other</h3>
 <p>Logs and configs can be found here:</p>
-<p>```user.home/OutlookCreator```</p>
+
+```user.home/OutlookCreator```
 <p>To compile simply run:</p>
-<p>``` ./gradlew shadowJar ```</p>
+
+``` ./gradlew shadowJar ```
 
 <h3>Licence & Support</h3>
 
 <p> Support My Work</p> 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H4KV40X)
 
