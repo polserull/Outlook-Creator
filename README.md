@@ -29,6 +29,7 @@ The WXOD file is just plain text and contain the outlook text including the id, 
 <h3>Licence & Support</h3>
 
 <p> Support My Work</p> 
+Under MIT, crediting me is appreciated.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H4KV40X)
 
