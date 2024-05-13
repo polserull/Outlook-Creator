@@ -1,0 +1,36 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+group = 'xyz.polserull'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.apache.logging.log4j:log4j-core:2.23.1"
+    implementation "io.github.spair:imgui-java-app:1.86.11"
+    implementation "org.lwjgl:lwjgl-stb:3.3.3"
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+configurations {
+    shadowImplementation.extendsFrom(implementation)
+}
+
+shadowJar {
+    configurations = [project.configurations.shadowImplementation]
+
+    manifest {
+        attributes 'Main-Class': 'xyz.polserull.Main'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}
